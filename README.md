@@ -3,7 +3,7 @@
 Raspberry Pi Zero W/2W 에 RetroPie 설치시 Wi-Fi 스캔 및 연결 동장이 불가능한 경우 사용합니다.
 
 ```
-git clone https://github.com/AnnaJinK/firmware-brcm.git
 cd ~
+git clone https://github.com/AnnaJinK/firmware-brcm.git
 sudo cp -r firmware-brcm/brcm/* /lib/firmware/brcm
 ```
